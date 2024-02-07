@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSkiller</title>
+    <script type="text/javascript">
+        var data = new Date();
+        var dzien = data.getDate();
+        var miesiac = data.getMonth()+1;
+        var rok = data.getFullYear(); 
+
+    </script>
+</head>
+<body>
+    <div id="zegar"></div>
+    <script>
+        document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok;
+        
+    </script>
+</body>
+</html>
